@@ -1,0 +1,87 @@
+.card-validator {
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+  
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  
+.card {
+  display: block;
+  margin: 4px 4px 0 0;
+  width: 50px;
+  height: 30px;
+  text-indent: -9999px;
+  background-size: 100% 100%;
+  opacity: 0.5;
+}
+  
+.card-highlight {
+  opacity: 1;  
+}
+  
+.visa {
+  background-image: url(../img/visa.png);  
+}
+  
+.master {
+  background-image: url(../img/mastercard.png);   
+}
+  
+.diners {
+  background-image: url(../img/diners_club.png);   
+}
+  
+.jcb {
+  background-image: url(../img/jcb.png);   
+}
+  
+.mir {
+  background-image: url(../img/mir.png);   
+}
+  
+.validator-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8px 0 0 0;
+  padding: 0;
+}
+  
+.form-control {
+  width: 200px;
+  margin-right: 18px;
+  padding-left: 5px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font: inherit;
+}
+  
+.form-button {
+  display: block;
+  padding: 7px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+  
+.form-button:hover {
+  color: yellow;          
+  border-color: yellow;
+}
+  
+.result {
+  margin: 8px 0 0 0;
+  color: red;
+}
+  
+.valid {
+  color: #00c800;
+}
